@@ -1,7 +1,7 @@
 name: bluegreendemo
 replicas: 2
 
-image: <+artifact.images>
+image: <+artifact.image>
 dockercfg: <+artifact.imagePullSecrets>
 
 createNamespace: true
