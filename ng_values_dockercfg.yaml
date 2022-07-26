@@ -2,7 +2,7 @@ name: bluegreendemo
 replicas: 2
 
 image: <+artifact.image>
-dockercfg: <+artifact.source.dockercfg>
+dockercfg: <+artifact.source.dockerconfig>
 
 createNamespace: true
 namespace: <+infra.namespace>
